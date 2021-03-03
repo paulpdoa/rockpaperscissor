@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1b1b1b;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.game-match{
+    display:flex;
+    text-align:center;
+   
+}
+
+.player-hand img {
+    transform:scaleX(-1);
+    cursor:pointer;
+    transition: transform .2s;
+}
+.player-hand img:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5) scaleX(-1); 
+}
+.computer-hand img {
+    cursor:pointer;
+    transition: transform .2s;
+}
+.computer-hand img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+.player-options{
+    text-align: center;
+}
+.player-options button{
+    width:100px;
+    padding:15px;
+    margin:100px;
+    background:none;
+    border:none;
+    border-radius:3px;
+    background:darkolivegreen;
+    text-transform: uppercase;
+    font-weight:600;
+    cursor:pointer;
+    transform: 0.4s;
+}
+.player-options button:hover{
+    background:lightblue;
+}
